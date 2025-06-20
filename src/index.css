@@ -1,0 +1,54 @@
+body {
+  background-color: lightgrey;
+}
+
+#plant-image {
+  display: flex;
+  height: 100px;
+  width: 200px;
+  margin-left: -20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#plant {
+  font-size: 80px;
+}
+
+#plant-card {
+  border: 1px grey solid;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  max-height: min-content;
+  padding: 10px;
+  margin: 10px;
+}
+
+#plant-store {
+  display: flex;
+}
+
+/* #cart {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+} */
+
+#plant-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#plant-listing {
+  width: 85%;
+}
+
+#cart-items {
+  font-size: 20px;
+}
+
+#cart-details {
+  margin-top: 50px;
+}
